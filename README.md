@@ -2,6 +2,8 @@
 
 SAM3-Gemma4-CUDA is an experimental computer vision and multimodal reasoning application that combines Facebook's Segment Anything Model 3 (SAM3) with Google's Gemma 4 vision-language model. This suite offers a comprehensive interactive web interface for high-precision image object detection, video segmentation, and interactive click-based tracking. By leveraging SAM3 to generate robust candidate segmentation masks and using Gemma 4 to intelligently filter and reason about these proposals based on user prompts, the tool ensures highly accurate and context-aware visual grounding. Built on Gradio with a heavily customized "Steel Blue" theme, the application is fully optimized for CUDA-enabled GPUs, providing researchers and developers with a powerful, real-time environment for exploring advanced vision-language workflows.
 
+<img width="1919" height="2434" alt="Screenshot 2026-04-08 at 04-37-37 SAM3-Gemma4-CUDA - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/1199002a-3e6b-48d2-9444-a021a1b4e012" />
+
 ### **Key Features**
 
 * **Image Detection with AI Filtering:** Utilizes SAM3 to generate candidate regions from a text prompt. Gemma 4 then analyzes these proposals and filters them to match the user's request, providing both a visual output and a natural language explanation of its selections.
