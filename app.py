@@ -256,9 +256,9 @@ label { font-weight:600 !important; }
 """
 
 
-FIRE_LOGO_SVG = """
+T_LOGO_SVG = """
 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path d="M13.5 2.5c.4 2.3-.4 4-1.7 5.6-1.3 1.6-2.6 3-2.6 5 0 1.8 1.2 3.2 2.8 3.2 1.8 0 3.1-1.4 3.1-3.5 0-1.1-.4-2.1-1.2-3.3 2.7 1.2 5.1 4.1 5.1 7.4 0 4-3.1 7.1-7.2 7.1-4.3 0-7.8-3.3-7.8-7.8 0-3.1 1.7-5.5 4-7.8 1.7-1.7 3.9-3.6 4.7-6z" fill="white"/>
+  <path fill="white" d="M13.2 2L5 13h5l-1.2 9L19 10h-5l-.8-8Z"/>
 </svg>
 """
 SVG_IMAGE = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0 0 22.5 18.75V5.25A2.25 2.25 0 0 0 20.25 3H3.75A2.25 2.25 0 0 0 1.5 5.25v13.5A2.25 2.25 0 0 0 3.75 21Z"/></svg>'
@@ -1137,7 +1137,7 @@ def html_header():
     return f"""
     <div class="app-header">
         <div class="header-content">
-            <div class="header-icon-wrap">{FIRE_LOGO_SVG}</div>
+            <div class="header-icon-wrap">{T_LOGO_SVG}</div>
             <div class="header-text">
                 <h1>SAM3 + Gemma 4 — Image & Video Segmentation</h1>
                 <div class="header-meta">
